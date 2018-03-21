@@ -1,0 +1,14 @@
+body {
+  font-family: $font-body-family;
+  font-size: $font-size-xxs;
+  line-height: $line-height;
+  font-weight: $font-weight-medium;
+  color: $font-color-secondary-light;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header-text {
+  font-weight: $font-weight-semi-bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}

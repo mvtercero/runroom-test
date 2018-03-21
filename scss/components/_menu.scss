@@ -1,0 +1,13 @@
+.menu {
+  background-color: $font-color-secondary-midtone;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.link {
+  border-bottom: 2px solid $font-color-secondary;
+}
