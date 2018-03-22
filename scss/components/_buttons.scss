@@ -1,0 +1,17 @@
+.menu-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  border-color: 3px solid black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 2px 7px 2px;
+  margin-right: 10px;
+  width: 30%;
+  color: $font-color-midtone;
+}

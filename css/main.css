@@ -6,6 +6,7 @@
 body,html {
   height: 100vh;
   margin: 0;
+  background-color: #e9f0f2;
 }
 
 a {
@@ -32,8 +33,15 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.no-padding {
+  padding: 0px;
 }/*Variables para medias*/header {
-  padding-left: 20px;
   background-color: #0B4C5F;
   -webkit-font-smoothing: antialiased;
   display: -webkit-box;
@@ -59,7 +67,6 @@ li {
   align-items: center;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  padding-left: 20px;
   padding-top: 30px;
   text-align: center;
 }
@@ -81,6 +88,104 @@ body {
   font-weight: 500;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.button-text {
+  font-size: 12px;
+}
+
+.character-title-medium {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  line-height: 5px;
+}
+
+.character-title-small {
+  color: #848484;
+}
+
+.menu-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  border-color: 3px solid black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 2px 7px 2px;
+  margin-right: 10px;
+  width: 30%;
+  color: #848484;
+}
+
+.characters-card-list {
+  background-color: #ffff;
+}
+
+.character-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.stars-line {
+  padding-left: 10px;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+}
+
+.circle {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin: 10px 10px 10px 15px;
+}
+
+.Daenerys-Targaryen {
+  background-image: url(../images/Daenerys-Targaryen.jpg);
+}
+
+.Tyrion-Lannister {
+  background-image: url(../images/Tyrion-Lannister.jpg);
+}
+
+.John-Snow {
+  background-image: url(../images/Jon-Snow.jpg);
+}
+
+.Margaery-Tyrell {
+  background-image: url(../images/Margaery-Tyrell.jpg);
+}
+
+.Sansa-Stark {
+  background-image: url(../images/Sansa-Stark.png);
+}
+
+.Cersei-Lannister {
+  background-image: url(../images/Cersei-Lannister.jpg);
 }
 
 /*# sourceMappingURL=main.css.map */

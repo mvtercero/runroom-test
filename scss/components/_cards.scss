@@ -1,0 +1,54 @@
+.characters-card-list {
+  background-color: #ffff;
+}
+
+.character-card {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.stars-line {
+  padding-left: 10px;
+
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+}
+
+.circle {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin: 10px 10px 10px 15px;
+}
+
+.Daenerys-Targaryen {
+  background-image: url(../images/Daenerys-Targaryen.jpg)
+}
+
+.Tyrion-Lannister {
+  background-image: url(../images/Tyrion-Lannister.jpg)
+}
+
+.John-Snow {
+  background-image: url(../images/Jon-Snow.jpg)
+}
+
+.Margaery-Tyrell {
+  background-image: url(../images/Margaery-Tyrell.jpg)
+}
+
+.Sansa-Stark {
+  background-image: url(../images/Sansa-Stark.png)
+}
+
+.Cersei-Lannister {
+  background-image: url(../images/Cersei-Lannister.jpg)
+}

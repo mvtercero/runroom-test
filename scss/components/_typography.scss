@@ -1,6 +1,6 @@
 body {
   font-family: $font-body-family;
-  font-size: $font-size-xxs;
+  font-size: $font-size-s;
   line-height: $line-height;
   font-weight: $font-weight-medium;
   color: $font-color-secondary-light;
@@ -11,4 +11,19 @@ body {
   font-weight: $font-weight-semi-bold;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.button-text {
+  font-size: $font-size-m;
+}
+
+.character-title-medium {
+  font-size: $font-size-m;
+  font-weight: $font-weight-semi-bold;
+  color: $font-color-dark;
+  line-height: 5px;
+}
+
+.character-title-small {
+  color: $font-color-midtone;
 }

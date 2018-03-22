@@ -5,6 +5,7 @@
 body,html {
   height: 100vh;
   margin: 0;
+  background-color: #e9f0f2;
 }
 
 
@@ -32,4 +33,12 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.no-padding {
+  padding: 0px;
 }
