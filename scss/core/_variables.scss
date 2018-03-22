@@ -1,21 +1,22 @@
 $color: (
-  primary: #FFBF00,
+primary: #FFBF00,
 
-  secondary: #3eeaea,
-  secondary-light: #ddeded,
-  secondary-midtone: #086A87,
-  secondary-dark: #0B4C5F,
+secondary: #3eeaea,
+secondary-light: #ddeded,
+secondary-midtone: #086A87,
+secondary-dark: #0B4C5F,
 
-  light: #e9f0f2,
-  midtone: #848484,
-  dark: #000
+light: #e9f0f2,
+midtone: #848484,
+dark: #000
 );
 
 $font-body-family: 'Roboto', sans-serif;
 
 $font-size-s: 10px;
 $font-size-m: 12px;
-$font-size-l: 14px;
+$font-size-mn: 14px;
+$font-size-l: 16px;
 
 
 $font-color-light: map-get($color, 'light');

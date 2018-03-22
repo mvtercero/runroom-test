@@ -19,6 +19,27 @@
   margin: 2px;
 }
 
+.ec-stars-wrapper {
+  font-size: 0;
+  display: inline-block;
+  padding-left: 10px;
+}
+.ec-stars-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: $font-size-l;
+  color: $font-color-secondary-light;
+  margin: 2px;
+}
+
+.ec-stars-wrapper:hover a {
+  color: $font-color-secondary;
+}
+
+.ec-stars-wrapper > a:hover ~ a {
+  color: $font-color-secondary-light;
+}
+
 .circle {
   background-repeat: no-repeat;
   background-position: center;
